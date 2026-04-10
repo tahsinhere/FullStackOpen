@@ -46,8 +46,7 @@ const App = () => {
       </div>
       <h1>Anecdote with most Votes </h1>
       {anecdotes[findMax()]}
-      {`
-      This has ${vote[findMax()]} votes!  `}
+      {`      This has ${vote[findMax()]} votes!  `}
     </div>
   );
 };
